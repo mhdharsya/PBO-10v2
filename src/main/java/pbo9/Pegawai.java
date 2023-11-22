@@ -1,5 +1,3 @@
-package pbo9;
-
 public class Pegawai {
     private String name;
     private String address;

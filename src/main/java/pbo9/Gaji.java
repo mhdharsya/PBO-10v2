@@ -1,7 +1,5 @@
-package pbo9;
-
 public class Gaji extends Pegawai {
-    private double salary; //gaji tahunan
+    private double salary;
     Integer x = 2;
 
     public Gaji (String name, String address, int number, double salary){
@@ -10,9 +8,8 @@ public class Gaji extends Pegawai {
         
     }
 
-    @Override //polimorfisme
+    @Override
     public void mailCheck(){
-        //System.out.println(x);
         System.out.println("Memeriksa kelas gaji dalam surat ");
         System.out.println("Surat tertuju untuk " + getName() + " dengan gaji " + salary);
     }
@@ -28,7 +25,7 @@ public class Gaji extends Pegawai {
     }
 
     public double computePay(){
-        System.out.println("mnghitung pembayaran gaji untuk " + getName());
+        System.out.println("Menghitung pembayaran gaji untuk " + getName());
         return salary/52;
     }
 }

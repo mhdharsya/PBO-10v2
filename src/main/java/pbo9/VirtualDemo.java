@@ -1,10 +1,8 @@
-package pbo9;
-
 public class VirtualDemo {
     public static void main (String[] args){
         Gaji s = new Gaji ("Wahyu", "KUBAR", 3, 5000.00);
-        Pegawai e = new Gaji ("Noar", "Samarinda", 2, 2500.00);
-        Pegawai p = new Pegawai("Dani", "sijunjung", 10000);
+        Pegawai e = new Gaji ("Udin", "Samarinda", 2, 2500.00);
+        Pegawai p = new Pegawai("Jalu", "Padang", 10000);
 
         System.out.println("Memanggil mailCheck Berdasarkan Referensi Gaji --");
         System.out.println(s.x);
